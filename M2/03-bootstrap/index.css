@@ -1,0 +1,15 @@
+.titulo {
+  color: darkgreen;
+}
+
+.rounded-right {
+  border-radius: 20px;
+}
+
+.my-card {
+  width: 15rem;
+}
+
+.my-card img {
+  width: 5rem;
+}
