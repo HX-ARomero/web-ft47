@@ -1,0 +1,14 @@
+{
+  "name": "04-node",
+  "version": "1.0.0",
+  "description": "Primer proyecto en NODE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "FT47",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
