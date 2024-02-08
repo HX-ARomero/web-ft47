@@ -62,3 +62,10 @@
     - En package.json: "nombre_paquete": "^6.2.0"
   - Forzar instalar una versión:
     - npm install react-router-dom@5.0.0
+
+## Borrar carpeta node_modules de forma eficiente
+- Las carpetas node_module suelen contar con cientos de librerías (módulos)
+- Pueden ocupar incluso Gigas de espacio
+- Se genera al instalar dependencias
+- Si se borra puede recuperarse mediante el comando `npm install`
+- La forma más eficiente de borrarlas es mediante [NPKill](https://www.npmjs.com/package/npkill)
