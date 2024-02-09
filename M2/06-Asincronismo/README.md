@@ -32,3 +32,13 @@ En este respositorio encontrarán todo el material visto en clase
 - [Bootstrap - Configuración inicial](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 - [Bootstrap - Layout y contenedores](https://getbootstrap.com/docs/4.1/layout/overview/)
 - [Bootstrap - Componentes](https://getbootstrap.com/docs/4.1/components/alerts/)
+
+### Clase 04 - Node JS
+- [Página oficial de Node JS](https://nodejs.org/en)
+- [NPM - Documentación](https://www.npmjs.com/)
+- [Moment - Documentación](https://www.npmjs.com/package/moment)
+
+### Clase 05 - Testing
+- [Jest - Documentación](https://jestjs.io/)
+- [Jest - Getting Started](https://jestjs.io/docs/getting-started)
+- [Jest - Expect / Matchers](https://jestjs.io/docs/expect)
