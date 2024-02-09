@@ -42,3 +42,10 @@ En este respositorio encontrarán todo el material visto en clase
 - [Jest - Documentación](https://jestjs.io/)
 - [Jest - Getting Started](https://jestjs.io/docs/getting-started)
 - [Jest - Expect / Matchers](https://jestjs.io/docs/expect)
+
+### Clase 06 - Asincronismo
+- Herramientas para testear rutas del Back-End
+  - [Postman](https://www.postman.com/)
+  - [Insomnia](https://insomnia.rest/)
+  - [Thunder Client](https://www.thunderclient.com/)
+  - [Documentación de Axios](https://www.npmjs.com/package/axios)
