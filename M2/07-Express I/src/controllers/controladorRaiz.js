@@ -1,7 +1,9 @@
 const controladorRaiz = (req, res) => {
   // console.log(req);
   // console.log(res);
-  res.send("GET a la ruta '/', Hola Mundo!!!");
+  console.log(req.params); //* { id:..., name:...}
+  const { identificador, name } = req.params;
+  res.json({ identificador, name });
 };
 
 module.exports = controladorRaiz;
