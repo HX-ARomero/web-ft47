@@ -1,4 +1,4 @@
-//* Buen comienzo de semana 💛💛💛
+//* Buen Miércoles 💛💛💛
 //* Les dejo un Extra-Credit...
 
 const nombre = "Homero";

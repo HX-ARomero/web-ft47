@@ -52,3 +52,9 @@ En este respositorio encontrarán todo el material visto en clase
 
 ### Clase 07 - Express I
 - [Documentación de Express](https://expressjs.com/es/)
+
+### Clase 08 - Express II
+- [JWT - JSON Web Token](https://jwt.io/)
+- [Morgan - Documentación](https://www.npmjs.com/package/morgan)
+- [CORS - Documentación](https://www.npmjs.com/package/cors)
+- [Express-validator - Documentación](https://www.npmjs.com/package/express-validator)

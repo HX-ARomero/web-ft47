@@ -8,15 +8,15 @@
 
 //* 01- Exporta e importa solamente "number"
 //*     Haz un console.log de "number" en el archivo "import"
-const number = 7;
+// const number = 7;
 
 //* 02- Exporta e importa solamente "character"
 //*     Haz un console.log de "character" en el archivo "import"
-const character = "Homero Simpson";
+// const character = "Homero Simpson";
 
 //* 03- Exporta e importa "character" y "sayHi"
 //*     En el archivo "import" ejecuta la función "sayHi" pasándole como argumento "character"
-const sayHi = (name) => console.log(`Hola ${name}`);
+// const sayHi = (name) => console.log(`Hola ${name}`);
 
 //* 04- Crea y exporta un array,
 //*     donde dentro del array cada elemento es un objeto,
@@ -26,4 +26,8 @@ const sayHi = (name) => console.log(`Hola ${name}`);
 //* Prueba de exportar e importar distintas estructuras de datos
 //*     teniendo en cuenta en cada caso qué es lo que se envía y lo que se recibe
 
-module.exports = number;
+const suma = (a, b) => a + b;
+const mult = (a, b) => a * b;
+
+
+module.exports = {suma, mult};

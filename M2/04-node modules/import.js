@@ -1,5 +1,6 @@
 //* En este archivo "importamos" lo que enviamos desde el archivo "export.js"
 
-const number = require("./export");
+const importado = require("./export");
+//* object = { suma, mult }
 
-console.log(number);
+console.log(importado.suma);

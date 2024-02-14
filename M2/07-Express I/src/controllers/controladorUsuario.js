@@ -3,7 +3,17 @@
 let usuarios = [];
 
 const postUsuario = (req, res) => {
-  usuarios.push({ id:1, name:"Homero" });
+  //* req.body = { usuario, contraseña }
+  const { usuario, contraseña } = req.body;
+  if(usuario && contraseña) {
+    if(typeof usuario === "string") {
+      usuarios.push({ usuario, contraseña })
+    } else {
+      return res.status(400).json({ message: "Usuario debe ser un string!!!"});
+    }
+  } else {
+    return res.status(400).json({ message: "Faltan datos!!!"});
+  }
   res.send(usuarios);
 };
 
