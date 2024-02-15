@@ -6,7 +6,7 @@ En este respositorio encontrarán todo el material visto en clase
 
 ## M2
 
-### [Proyecto del Módulo 2](https://github.com/HX-ARomero/ft47-m2-proyecto)
+### Proyecto del Módulo 2
 
 - [URL movies](https://henry-movies-dev-sgtm.3.us-1.fl0.io/)
 
