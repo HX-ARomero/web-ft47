@@ -1,7 +1,7 @@
 module.exports = [
   {
     "id": 1,
-    "name": "A Night at the Opera",
+    "name": "Queen",
     "released": "1973 July 13",
     "rating": 8.3,
     "genre": "Rock",
@@ -12,7 +12,7 @@ module.exports = [
   },
   {
     "id": 2,
-    "name": "A Day at the Races",
+    "name": "Queen II",
     "released": "1974 March 8",
     "rating": 8.9,
     "genre": "Rock",
@@ -42,5 +42,5 @@ module.exports = [
       "name": "Metallica",
       "country": "USA"
     }
-  }
+  },
 ]

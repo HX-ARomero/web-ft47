@@ -1,18 +1,14 @@
-//* 1- Instalamos mongoose npm install mongoose
-//* 2- Creamos conexión
-//* 3- Invocamos conexión desde index.js
-//? 4- CREAR BBDD // test (por defecto)
-//! 5- CREAR COLECCIÓN
-
-//* mongoose => ODM => BBDD (MongoDB Atlas)
-const mongoose = require('mongoose');
-const dbName = "discs";
-//? 4- CREAR BBDD // test (por defecto)
-const ATLAS_URI = `mongodb+srv://arieldemo2024:sXAyFqBffpCRikoN@cluster0.qx26yjn.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+//* mongoose => hace referencia al objeto que tiene todos los métodos
+//* NO es necesario instanciar !!!!!
+const mongoose = require("mongoose");
+require("dotenv").config();
 
 const dbConfig = async () => {
-  //* La conexión ES una PROMESA;
-  await mongoose.connect(ATLAS_URI);
+  //* La conexión "ES UNA PROMESA"
+  await mongoose.connect(
+    process.env.MONGODB_URI
+  );
 };
+
 
 module.exports = dbConfig;

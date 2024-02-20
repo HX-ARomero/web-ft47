@@ -1,47 +1,46 @@
-const mongoose = require('mongoose');
+//* mongoose hace referencia al mismo objeto que en "dbConfig.js"
+const mongoose = require("mongoose");
+// También funcionaría lo siguiente:
+// const { Schema } = requires("mongoose");
 
-//! 5- CREAR COLECCIÓN
-
-//! 5- A-CREAR ESQUEMA
+//* Creación del Esquema:
 const discSchema = new mongoose.Schema({
-  //* _id: Mongoose
-  // name: String,
-  // released: String,
-  // rating: Number,
-  // genre: String,
-  // band: Object
-
   name: {
     type: String,
     required: true,
-    unique: true
+    // unique: true, // unique NO es un Validator !!!!!
   },
   released: {
     type: String,
-    required: true
+    required: [true, "La fecha de lanzamiento es obligatoria"], //* CUSTOM VALIDATOR
+    // validate: {
+    //   validator: function (input) {
+    //     return input.includes("http");
+    //   },
+    //   message: (props) => `${props.value} no es una url válida`,
+    // },
   },
   rating: {
     type: Number,
-    min: [ 1, "El Rating mínimo es 1" ],
-    max: [ 10, "El Rating máximo es 10" ],
-    required: true
+    required: [true, "El rating es obligatorio"],
+    // min: [1, `El rating mínimo es 1`],
+    min: [1, `El rating mínimo es 1, se ha recibido {VALUE}`],
+    max: [10, `El rating máximo es 10, se ha recibido {VALUE}`],
   },
   genre: {
     type: String,
+    // enum: ["Rock", "Trash", "Pop", "Reggae", "Salsa"],
     enum: {
-      values: ['Rock', 'Trash', 'Reggae', 'Salsa'],
-      //* genre: SeMeOcurrióAhora
-      message: '{VALUE} no es un género permitido!!!'
-    }
+      values: ["Rock", "Trash", "Pop", "Reggae", "Salsa"],
+      message: "{VALUE} no es un género soportado",
+    },
   },
-  band: Object
+  band: { type: mongoose.Schema.Types.ObjectId, ref: "Band" },
 });
 
-//* Combinación única entre "name" y "band.name"
-//* discSchema.index({ name: 1, "band.name": 1}, { unique: true });
+// discSchema.index({ name: 1, "band.name": 1 }, { unique: true });
 
-//! 5- B-CREAR MODELO
-//* Disc => { }
+//* Convertimos el Esquema en un Modelo:
 const Disc = mongoose.model("Disc", discSchema);
 
 module.exports = Disc;
