@@ -78,13 +78,13 @@ module.exports = {
 
 ## Creamos scripts en el "package.json
 
-```bash
-	"scripts": {
-		"build": "tsc",
-		"start": "node ./dist/index.js",
-		"dev": "tsc && node ./dist/index.js",
-    "lint": "eslint . --ext .ts"
-	},
+```json
+"scripts": {
+  "build": "tsc",
+  "start": "node ./dist/index.js",
+  "dev": "tsc && node ./dist/index.js",
+  "lint": "eslint . --ext .ts"
+},
 ```
 
 ## EJERCICIOS
