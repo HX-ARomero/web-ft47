@@ -1,4 +1,4 @@
-import { postPlatformController } from "./controllers";
+import { postCharacterController, postGenreController, postPlatformController } from "./controllers";
 
 const {Router} = require("express");
 const {
@@ -15,5 +15,7 @@ router.put("/", putController);
 router.delete("/", deleteController);
 
 router.post("/platforms", postPlatformController);
+router.post("/genres", postGenreController);
+router.post("/characters", postCharacterController);
 
 module.exports = router;

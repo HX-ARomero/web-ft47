@@ -2,6 +2,8 @@ import "reflect-metadata"
 import { DataSource } from "typeorm"
 import { Videogame } from "./entity/Videogame"
 import { Platform } from "./entity/Platform"
+import { Genre } from "./entity/Genre"
+import { Character } from "./entity/Character"
 
 export const AppDataSource = new DataSource({
     //* CREDENCIALES
@@ -16,7 +18,7 @@ export const AppDataSource = new DataSource({
     //* Mostrar comandos SQL en consola
     logging: false,
     //* Pasamos nuestros modelos o "Entidades"
-    entities: [Videogame, Platform],
+    entities: [Videogame, Platform, Genre, Character],
     migrations: [],
     subscribers: [],
 })
