@@ -12,6 +12,10 @@ export class Videogame {
   @PrimaryGeneratedColumn()
   id: number;
 
+  //* Propiedad que guardará inventory => Transacción
+  @Column({ default: 0 })
+  inventory: number
+
   @Column({ unique: true })
   title: string;
 

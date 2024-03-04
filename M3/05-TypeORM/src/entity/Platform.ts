@@ -1,4 +1,4 @@
-import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
+import { BeforeInsert, Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { Videogame } from "./Videogame";
 
 //! Platform  1:N  Videogame => @OneToMany
@@ -8,6 +8,13 @@ import { Videogame } from "./Videogame";
   name: 'PLATFORMS'
 })
 export class Platform {
+
+  //* ENTITY LISTENER
+  @BeforeInsert()
+  transformTitle() {
+    this.name = this.name.toLowerCase();
+  }
+
   @PrimaryGeneratedColumn()
   id: number;
 

@@ -4,6 +4,7 @@ import { Videogame } from "./entity/Videogame"
 import { Platform } from "./entity/Platform"
 import { Genre } from "./entity/Genre"
 import { Character } from "./entity/Character"
+import { PlatformSubscriber } from "./subscribers"
 
 export const AppDataSource = new DataSource({
     //* CREDENCIALES
@@ -20,5 +21,10 @@ export const AppDataSource = new DataSource({
     //* Pasamos nuestros modelos o "Entidades"
     entities: [Videogame, Platform, Genre, Character],
     migrations: [],
-    subscribers: [],
+    subscribers: [PlatformSubscriber],
 })
+
+// const videogameRepository = AppDataSource.getRepository(Videogame);
+// const platformRepository = AppDataSource.getRepository(Platform);
+// const genreRepository = AppDataSource.getRepository(Genre);
+// const characterRepository = AppDataSource.getRepository(Character);
