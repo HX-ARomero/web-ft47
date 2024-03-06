@@ -67,3 +67,10 @@ En este respositorio encontrarán todo el material visto en clase
 - [Morgan - Documentación](https://www.npmjs.com/package/morgan)
 - [CORS - Documentación](https://www.npmjs.com/package/cors)
 - [Express-validator - Documentación](https://www.npmjs.com/package/express-validator)
+
+## M3
+
+### Clase 06 - React Intro & Estilos
+
+- [Documentación de React](https://es.react.dev/)
+- [Normalize CSS](https://necolas.github.io/normalize.css/)
