@@ -1,12 +1,14 @@
 ```txt
-  _    _       _     _ _               _____       _           _       _     _           
- | |  | |  // | |   (_) |             / ____|     | |         | |     | |   | |          
- | |__| | __ _| |__  _| |_ ___  ___  | (___   __ _| |_   _  __| | __ _| |__ | | ___  ___ 
+  _    _       _     _ _               _____       _           _       _     _
+ | |  | |  // | |   (_) |             / ____|     | |         | |     | |   | |
+ | |__| | __ _| |__  _| |_ ___  ___  | (___   __ _| |_   _  __| | __ _| |__ | | ___  ___
  |  __  |/ _` | '_ \| | __/ _ \/ __|  \___ \ / _` | | | | |/ _` |/ _` | '_ \| |/ _ \/ __|
  | |  | | (_| | |_) | | || (_) \__ \  ____) | (_| | | |_| | (_| | (_| | |_) | |  __/\__ \
  |_|  |_|\__,_|_.__/|_|\__\___/|___/ |_____/ \__,_|_|\__,_|\__,_|\__,_|_.__/|_|\___||___/
-                                                                                                           
+
 ```
+
+> Por último, describimos algunas buenas prácticas para la persona detrás del código, que también puede seguir algunas buenas prácticas.
 
 ## CUIDADO DE LA VISTA 👀
 
@@ -22,12 +24,14 @@
 - Sillas ergonómicas
 
 ## DIETA SANA 🍎
+
 - Tomar tiempo para el desayuno, almuerzo, merienda y cena
   - Fuera de la oficina!!!
 - Beber abundante agua
 - Limitar el consumo de cafeína
 
 ## OTROS HÁBITOS Y EJERCICIOS SALUDABLES 😄
+
 - Evitar posturas forzadas o tensionadas
 - Evitar mantener demasiado tiempo la misma postura o rutina
 - Utilizar la mínima fuerza para pulsar las teclas
@@ -40,3 +44,5 @@
 <hr/>
 
 [<img src="https://www.hospitaldeltrabajador.cl/images/librariesprovider4/default-album/postura2.png?sfvrsn=817d3cd4_0" width="800"/>](Cronograma)
+
+[Buenas prácticas 09](./09-GoodPractices.md)
