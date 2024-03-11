@@ -1,0 +1,117 @@
+.container {
+  background-color: rgb(205, 155, 137);
+  border-radius: 5px;
+  color: rgb(125, 60, 37);
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px 20px 30px 20px;
+  text-align: center;
+  width: 800px;
+  hr {
+    border: 0;
+    height: 2px;
+    background-color: rgb(125, 60, 37);
+  }
+  img {
+    height: 250px;
+    padding: 40px;
+  }
+  p {
+    color: rgb(125, 60, 37);
+    font-weight: bold;
+    font-size: 1em;
+  }
+  span {
+    padding: 10px;
+    color: rgb(205, 155, 137);
+    background-color: rgb(125, 60, 37);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+  span:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(125, 60, 37);
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+  }
+  a:link,
+  :visited,
+  :hover,
+  :active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.aboutImages {
+  width: 50px;
+  height: 20px;
+}
+
+.cardContainer {
+  background-color: rgb(145, 94, 75);
+  border-radius: 5px;
+  color: rgb(205, 155, 137);
+  height: 60px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 2px;
+  text-align: center;
+  width: 800px;
+}
+
+.navbarContainer {
+  align-items: center;
+  background-color: rgb(125, 60, 37);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  width: 800px;
+  img {
+    height: 140px;
+    width: 150px;
+  }
+  p {
+    color: rgb(255, 186, 161);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 150px;
+  }
+  span {
+    padding: 10px;
+  }
+  span:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(125, 60, 37);
+    cursor: pointer;
+    padding: 10px;
+  }
+  a:link,
+  :visited,
+  :hover,
+  :active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.active span {
+  color: rgb(125, 60, 37);
+  background-color: rgb(255, 186, 161);
+  border-radius: 5px;
+}
