@@ -15,8 +15,8 @@ function generarSubsets(chars) {
   console.log("Pasos:", pasos);
 }
 
-generarSubsets("12");
-generarSubsets("123");
-generarSubsets("1234");
-generarSubsets("12345");
-generarSubsets("123456");
+generarSubsets("12"); //* 2^1 = 2
+generarSubsets("123"); //* 2^2 = 4
+generarSubsets("1234"); //* 2^3 = 8
+generarSubsets("12345");//* 16
+generarSubsets("123456");//* 32

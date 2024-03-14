@@ -20,8 +20,10 @@ function arrayGenerador(n) {
   return newArray;
 }
 
-console.log(busquedaSuma(arrayGenerador(10), 100));
-console.log(busquedaSuma(arrayGenerador(100), 1000));
+console.log(busquedaSuma(arrayGenerador(10), 100)); //* 10^2 = 100
+console.log(busquedaSuma(arrayGenerador(100), 1000)); //* 100^2 = 10000
 console.log(busquedaSuma(arrayGenerador(1000), 10000));
 console.log(busquedaSuma(arrayGenerador(10000), 100000));
 // console.log(busquedaSuma(arrayGenerador(100000), 1000000));
+
+//* [ 0, 1, 2, 3 ] 10

@@ -30,3 +30,6 @@ console.log(busquedaBinaria(arrayGenerador(100), 50));
 console.log(busquedaBinaria(arrayGenerador(1000), 500));
 console.log(busquedaBinaria(arrayGenerador(10000), 5000));
 console.log(busquedaBinaria(arrayGenerador(100000), 50000));
+
+//* 0 1 2 3 4 5 6 7 8 9
+//*           ^
